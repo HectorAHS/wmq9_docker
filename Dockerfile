@@ -1,0 +1,5 @@
+FROM ibmcom/mq:latest
+ENV LICENSE=accept
+ENV MQ_QMGR_NAME=MBRP
+ENV MQ_DEV=false
+ENV MQ_ADMIN_PASSWORD=password

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wmq9
+  labels:
+    app: wmq9
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wmq9
+  template:
+    metadata:
+      labels:
+        app: wmq9
+    spec:
+      containers:
+        - image: hhuaranga/wmq9
+          name: wmq9
+          imagePullPolicy: Always
+      restartPolicy: Always
