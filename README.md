@@ -6,7 +6,7 @@ Build a WebSphere MQ v9 docker container
 	docker push hhuaranga/wmq9
 
 Datos de conexion al QMNGR
-	127.0.0.1:1414, DEV.ADMIN.SVRCONN, admin/passw0rd
+	127.0.0.1:1414, DEV.ADMIN.SVRCONN, admin/password
 
 Datos de conexion a la consola de administracion
 	https://localhost:9443/ admin/password
